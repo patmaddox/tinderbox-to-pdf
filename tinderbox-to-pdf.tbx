@@ -823,7 +823,7 @@
 <attribute name="MapScrollX" >0</attribute>
 <attribute name="MapScrollY" >0</attribute>
 <attribute name="Modified" >2017-12-09T21:09:19-07:00</attribute>
-<attribute name="Name" >tinderbox-to-pdf_v0_1_0</attribute>
+<attribute name="Name" >tinderbox-to-pdf</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1512879181" Creator="Pat Maddox" >
@@ -831,7 +831,7 @@
 <attribute name="Badge" >check mark</attribute>
 <attribute name="Created" >2017-12-09T21:13:00-07:00</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
-<attribute name="HTMLExportCommand" >PATH=/Library/TeX/texbin:$PATH /usr/local/bin/pandoc -s -r html -o ~/Documents/tinderbox-to-pdf-v0_1_0.pdf -V documentclass=report --toc</attribute>
+<attribute name="HTMLExportCommand" >PATH=/Library/TeX/texbin:$PATH /usr/local/bin/pandoc -s -r html -V colorlinks=true -o ~/Documents/tinderbox-to-pdf-v0_1_1.pdf -V documentclass=report --toc</attribute>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="KeyAttributes" >PDFAuthor;PDFDate;PDFExportFileName;PDFIncludeTOC;PDFDocumentClass</attribute>
 <attribute name="Modified" >2017-12-09T21:54:44-07:00</attribute>
@@ -839,7 +839,7 @@
 <attribute name="PDFAuthor" >Pat Maddox – pat@patmaddox.com</attribute>
 <attribute name="PDFDate" >v0.1.0 – December 9th, 2017</attribute>
 <attribute name="PDFDocumentClass" >report</attribute>
-<attribute name="PDFExportFileName" >~/Documents/tinderbox-to-pdf-v0_1_0.pdf</attribute>
+<attribute name="PDFExportFileName" >~/Documents/tinderbox-to-pdf-v0_1_1.pdf</attribute>
 <attribute name="PDFIncludeTOC" >true</attribute>
 <attribute name="Rule" >var whichLatex;
 var whichPandoc;
@@ -856,7 +856,7 @@ if(whichLatex.contains(&quot;/Library/TeX/texbin/xelatex&quot;) &amp; whichPando
 
   var CommandString;
 
-  CommandString=&quot;PATH=/Library/TeX/texbin:$PATH /usr/local/bin/pandoc -s -r html -o &quot; + $PDFExportFileName;
+  CommandString=&quot;PATH=/Library/TeX/texbin:$PATH /usr/local/bin/pandoc -s -r html -V colorlinks=true -o &quot; + $PDFExportFileName;
 
   if($PDFDocumentClass &amp; !CommandString.contains(&quot;-V documentclass=&quot; + $PDFDocumentClass)) { CommandString = CommandString + &quot; -V documentclass=&quot; + $PDFDocumentClass; };
 
@@ -878,7 +878,7 @@ if(whichLatex.contains(&quot;/Library/TeX/texbin/xelatex&quot;) &amp; whichPando
   $HoverExpression = hoverExpression;
 };</attribute>
 <attribute name="RuleDisabled" >false</attribute>
-<attribute name="SelectionCount" >110</attribute>
+<attribute name="SelectionCount" >118</attribute>
 <attribute name="Xpos" >31.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1512881689" Creator="Pat Maddox" >
@@ -887,7 +887,7 @@ if(whichLatex.contains(&quot;/Library/TeX/texbin/xelatex&quot;) &amp; whichPando
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-09T22:00:24-07:00</attribute>
 <attribute name="Name" >The Goal</attribute>
-<attribute name="SelectionCount" >34</attribute>
+<attribute name="SelectionCount" >37</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >I want to use Tinderbox to create structured documents, and then export them to beautiful PDFs.</text>
@@ -897,16 +897,15 @@ if(whichLatex.contains(&quot;/Library/TeX/texbin/xelatex&quot;) &amp; whichPando
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-12-09T21:54:52-07:00</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2017-12-10T01:18:05-07:00</attribute>
+<attribute name="Modified" >2017-12-10T02:29:59-07:00</attribute>
 <attribute name="Name" >Potential Gotchas</attribute>
-<attribute name="SelectionCount" >17</attribute>
+<attribute name="SelectionCount" >20</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >I have installed lots of different software on my computer, so I’m not 100% sure what is required to make this work. The first few people to use this will be brave and patient souls indeed. I will do my best to help out.
 
-I’ve created a forum thread to discuss this document:
-http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/1068</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5PAgAAKwAAAAEAAABHAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBoYXZlIGluc3RhbGxlZCBsb3RzIG9mIGRpZmZlcmVudCBzb2Z0d2FyZSBvbiBteSBjb21wdXRlciwgc28gSVwnOTJtIG5vdCAxMDAlIHN1cmUgd2hhdCBpcyByZXF1aXJlZCB0byBtYWtlIHRoaXMgd29yay4gVGhlIGZpcnN0IGZldyBwZW9wbGUgdG8gdXNlIHRoaXMgd2lsbCBiZSBicmF2ZSBhbmQgcGF0aWVudCBzb3VscyBpbmRlZWQuIEkgd2lsbCBkbyBteSBiZXN0IHRvIGhlbHAgb3V0LlwKXApJXCc5MnZlIGNyZWF0ZWQgYSBmb3J1bSB0aHJlYWQgdG8gZGlzY3VzcyB0aGlzIGRvY3VtZW50OlwKaHR0cDovL2ZvcnVtLmVhc3RnYXRlLmNvbS90L2NyZWF0ZS1iZWF1dGlmdWwtcGRmcy1mcm9tLXlvdXItdGluZGVyYm94LWRvY3VtZW50cy8xMDY4fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAHTuLFq2AQAAAAAAAAAAAAA=</rtfd>
+I’ve created a forum thread to discuss this document.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC75AQAAKwAAAAEAAADxAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBoYXZlIGluc3RhbGxlZCBsb3RzIG9mIGRpZmZlcmVudCBzb2Z0d2FyZSBvbiBteSBjb21wdXRlciwgc28gSVwnOTJtIG5vdCAxMDAlIHN1cmUgd2hhdCBpcyByZXF1aXJlZCB0byBtYWtlIHRoaXMgd29yay4gVGhlIGZpcnN0IGZldyBwZW9wbGUgdG8gdXNlIHRoaXMgd2lsbCBiZSBicmF2ZSBhbmQgcGF0aWVudCBzb3VscyBpbmRlZWQuIEkgd2lsbCBkbyBteSBiZXN0IHRvIGhlbHAgb3V0LlwKXApJXCc5MnZlIGNyZWF0ZWQgYSBmb3J1bSB0aHJlYWQgdG8gZGlzY3VzcyB0aGlzIGRvY3VtZW50Ln0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAACf/ixatgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1512881712" Creator="Pat Maddox" >
 <attribute name="Associates" ></attribute>
@@ -914,7 +913,7 @@ http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-10T00:13:30-07:00</attribute>
 <attribute name="Name" >Setup Instructions</attribute>
-<attribute name="SelectionCount" >18</attribute>
+<attribute name="SelectionCount" >20</attribute>
 <attribute name="Xpos" >7</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >I recommend reading the Setup Instructions in their entirety before doing anything. If anything looks scary or confusing, ask for help.</text>
@@ -923,35 +922,34 @@ http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-12-09T22:02:38-07:00</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2017-12-10T00:16:14-07:00</attribute>
+<attribute name="Modified" >2017-12-10T02:31:51-07:00</attribute>
 <attribute name="Name" >LaTeX</attribute>
-<attribute name="SelectionCount" >14</attribute>
+<attribute name="SelectionCount" >16</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
-<text >Download and install MacTeX:
-http://www.tug.org/mactex/mactex-download.html
+<text >Download and install MacTeX
 
 This will take a while. The download is 3 GB.</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5bAQAAKwAAAAEAAABTAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRG93bmxvYWQgYW5kIGluc3RhbGwgTWFjVGVYOlwKaHR0cDovL3d3dy50dWcub3JnL21hY3RleC9tYWN0ZXgtZG93bmxvYWQuaHRtbFwKXApUaGlzIHdpbGwgdGFrZSBhIHdoaWxlLiBUaGUgZG93bmxvYWQgaXMgMyBHQi59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAPt8sWrYBAAAAAAAAAAAAAA==</rtfd>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4qAQAAKwAAAAEAAAAiAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRG93bmxvYWQgYW5kIGluc3RhbGwgTWFjVGVYXApcClRoaXMgd2lsbCB0YWtlIGEgd2hpbGUuIFRoZSBkb3dubG9hZCBpcyAzIEdCLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAH/yxatgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1512882769" Creator="Pat Maddox" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-12-09T22:12:48-07:00</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2017-12-10T00:16:21-07:00</attribute>
+<attribute name="Modified" >2017-12-10T02:32:02-07:00</attribute>
 <attribute name="Name" >Pandoc</attribute>
-<attribute name="SelectionCount" >13</attribute>
+<attribute name="SelectionCount" >15</attribute>
 <attribute name="URL" >https://brew.sh/</attribute>
 <attribute name="Xpos" >7</attribute>
 <attribute name="Ypos" >0</attribute>
-<text >First install Homebrew, a package manager for OS X: https://brew.sh
+<text >First install Homebrew, a package manager for OS X.
 
 Then use Homebrew to install Pandoc.
 
 &lt;code&gt;brew install pandoc&lt;/code&gt;
 
 This will take a while. I think it took 40 minutes on my MacBook Pro.</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC62AQAAKwAAAAEAAACuAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRmlyc3QgaW5zdGFsbCBIb21lYnJldywgYSBwYWNrYWdlIG1hbmFnZXIgZm9yIE9TIFg6IGh0dHBzOi8vYnJldy5zaFwKXApUaGVuIHVzZSBIb21lYnJldyB0byBpbnN0YWxsIFBhbmRvYy5cClwKPGNvZGU+YnJldyBpbnN0YWxsIHBhbmRvYzwvY29kZT5cClwKVGhpcyB3aWxsIHRha2UgYSB3aGlsZS4gSSB0aGluayBpdCB0b29rIDQwIG1pbnV0ZXMgb24gbXkgTWFjQm9vayBQcm8ufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAEzfLFq2AQAAAAAAAAAAAAA=</rtfd>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6mAQAAKwAAAAEAAACeAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRmlyc3QgaW5zdGFsbCBIb21lYnJldywgYSBwYWNrYWdlIG1hbmFnZXIgZm9yIE9TIFguXApcClRoZW4gdXNlIEhvbWVicmV3IHRvIGluc3RhbGwgUGFuZG9jLlwKXAo8Y29kZT5icmV3IGluc3RhbGwgcGFuZG9jPC9jb2RlPlwKXApUaGlzIHdpbGwgdGFrZSBhIHdoaWxlLiBJIHRoaW5rIGl0IHRvb2sgNDAgbWludXRlcyBvbiBteSBNYWNCb29rIFByby59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAEv8sWrYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 <item ID="1512889538" Creator="Pat Maddox" >
 <attribute name="Associates" ></attribute>
@@ -974,7 +972,7 @@ If you still see a red x, hover over the root note and it should display which d
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-09T23:24:39-07:00</attribute>
 <attribute name="Name" >Create Your Own PDFs!</attribute>
-<attribute name="SelectionCount" >46</attribute>
+<attribute name="SelectionCount" >50</attribute>
 <attribute name="Xpos" >14</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >Now for the fun stuff! This document can produce PDFs, so all you need to do is edit it, export to HTML, and you’re set. Run &lt;code&gt;File-&gt;Export-&gt;as HTML&lt;/code&gt; and your PDF should export to &lt;code&gt;~/Documents/tinderbox-to-pdf.pdf&lt;/code&gt;. If not, open the exported HTML file to see if Pandoc reported any errors.</text>
@@ -985,7 +983,7 @@ If you still see a red x, hover over the root note and it should display which d
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-10T00:38:28-07:00</attribute>
 <attribute name="Name" >Options</attribute>
-<attribute name="SelectionCount" >7</attribute>
+<attribute name="SelectionCount" >9</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >The root note has several key attributes which are mostly self-explanatory. Here’s a bit more information on them.</text>
@@ -1042,14 +1040,13 @@ If you still see a red x, hover over the root note and it should display which d
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-12-10T00:38:59-07:00</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2017-12-10T01:22:33-07:00</attribute>
+<attribute name="Modified" >2017-12-10T02:32:40-07:00</attribute>
 <attribute name="Name" >PDFDocumentClass</attribute>
-<attribute name="SelectionCount" >8</attribute>
+<attribute name="SelectionCount" >11</attribute>
 <attribute name="Xpos" >14</attribute>
 <attribute name="Ypos" >0</attribute>
-<text >I don’t know much about this, to be honest. LaTeX has several document classes available which change the PDF format:
-https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6fAQAAKwAAAAEAAACXAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBkb25cJzkydCBrbm93IG11Y2ggYWJvdXQgdGhpcywgdG8gYmUgaG9uZXN0LiBMYVRlWCBoYXMgc2V2ZXJhbCBkb2N1bWVudCBjbGFzc2VzIGF2YWlsYWJsZSB3aGljaCBjaGFuZ2UgdGhlIFBERiBmb3JtYXQ6XApodHRwczovL2VuLndpa2lib29rcy5vcmcvd2lraS9MYVRlWC9Eb2N1bWVudF9TdHJ1Y3R1cmUjRG9jdW1lbnRfY2xhc3Nlc30BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAADJ7ixatgEAAAAAAAAAAAAA</rtfd>
+<text >LaTeX has several document classes available which change the PDF format. Try them out to see what you like.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5KAQAAKwAAAAEAAABCAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgTGFUZVggaGFzIHNldmVyYWwgZG9jdW1lbnQgY2xhc3NlcyBhdmFpbGFibGUgd2hpY2ggY2hhbmdlIHRoZSBQREYgZm9ybWF0LiBUcnkgdGhlbSBvdXQgdG8gc2VlIHdoYXQgeW91IGxpa2UufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAADj/LFq2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 </item>
 </item>
@@ -1059,34 +1056,22 @@ https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes</text>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-09T21:55:29-07:00</attribute>
 <attribute name="Name" >Open Questions</attribute>
-<attribute name="SelectionCount" >17</attribute>
+<attribute name="SelectionCount" >20</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
-<item ID="1512883112" Creator="Pat Maddox" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2017-12-09T22:18:31-07:00</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2017-12-09T22:22:50-07:00</attribute>
-<attribute name="Name" >Can I visually indicate external links?</attribute>
-<attribute name="SelectionCount" >9</attribute>
-<attribute name="Xpos" >24.5</attribute>
-<attribute name="Ypos" >0</attribute>
-<text >External links (e.g. Tinderbox home page) don’t receive any styling. There’s no visual indicator that there’s a link there.</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5iAQAAKwAAAAEAAABaAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRXh0ZXJuYWwgbGlua3MgKGUuZy4gVGluZGVyYm94IGhvbWUgcGFnZSkgZG9uXCc5MnQgcmVjZWl2ZSBhbnkgc3R5bGluZy4gVGhlcmVcJzkycyBubyB2aXN1YWwgaW5kaWNhdG9yIHRoYXQgdGhlcmVcJzkycyBhIGxpbmsgdGhlcmUufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAACfFLFq2AQAAAAAAAAAAAAA=</rtfd>
-</item>
 <item ID="1512881733" Creator="Pat Maddox" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-12-09T21:55:32-07:00</attribute>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-09T22:30:03-07:00</attribute>
 <attribute name="Name" >How can I make it more beautiful?</attribute>
-<attribute name="SelectionCount" >21</attribute>
+<attribute name="SelectionCount" >25</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >Pandoc has some mechanism for adding stylesheets.
 
 https://gist.github.com/killercup/5917178 is a possible stylesheet to add.</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC72AQAAKwAAAAEAAADuAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgUGFuZG9jIGhhcyBzb21lIG1lY2hhbmlzbSBmb3IgYWRkaW5nIHN0eWxlc2hlZXRzLlwKXApccGFyZFx0eDM2MFx0eDcyMFx0eDEwODBcdHgxNDQwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2lzdC5naXRodWIuY29tL2tpbGxlcmN1cC81OTE3MTc4In19e1xmbGRyc2x0IFxjZjAgaHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20va2lsbGVyY3VwLzU5MTcxNzh9fSBpcyBhIHBvc3NpYmxlIHN0eWxlc2hlZXQgdG8gYWRkLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABbxixatgEAAAAAAAAAAAAA</rtfd>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5dAQAAKwAAAAEAAABVAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgUGFuZG9jIGhhcyBzb21lIG1lY2hhbmlzbSBmb3IgYWRkaW5nIHN0eWxlc2hlZXRzLlwKXApodHRwczovL2dpc3QuZ2l0aHViLmNvbS9raWxsZXJjdXAvNTkxNzE3OCBpcyBhIHBvc3NpYmxlIHN0eWxlc2hlZXQgdG8gYWRkLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABH/yxatgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1512881762" Creator="Pat Maddox" >
 <attribute name="Associates" ></attribute>
@@ -1120,7 +1105,7 @@ Nope – the exported HTML does not include that link.</text>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-09T22:32:47-07:00</attribute>
 <attribute name="Name" >Can I do code highlighting?</attribute>
-<attribute name="SelectionCount" >11</attribute>
+<attribute name="SelectionCount" >12</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >Pandoc supports syntax highlighting. What do I need to do to make it work?</text>
@@ -1190,7 +1175,7 @@ GitHub is amazing for collaborating on code, but I think the highly-structured X
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-10T00:20:48-07:00</attribute>
 <attribute name="Name" >Implementation Notes</attribute>
-<attribute name="SelectionCount" >9</attribute>
+<attribute name="SelectionCount" >10</attribute>
 <attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1512890466" Creator="Pat Maddox" >
@@ -1234,7 +1219,7 @@ Note: Because The Big Rule always sets the &lt;code&gt;$Badge&lt;/code&gt; at th
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-10T00:19:39-07:00</attribute>
 <attribute name="Name" >Thanks</attribute>
-<attribute name="SelectionCount" >6</attribute>
+<attribute name="SelectionCount" >8</attribute>
 <attribute name="Xpos" >21</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >I had fun putting this together, and I look forward to digging in more to use Tinderbox to create beautiful PDFs. Tinderbox is truly an amazing tool. I’m just scratching the surface of what it can do.
@@ -1242,7 +1227,7 @@ Note: Because The Big Rule always sets the &lt;code&gt;$Badge&lt;/code&gt; at th
 I want to thank everyone who participates on the Eastgate forum, especially the two Marks.
 
 &amp;lt;3 Pat</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4UAgAAKwAAAAEAAAAMAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBoYWQgZnVuIHB1dHRpbmcgdGhpcyB0b2dldGhlciwgYW5kIEkgbG9vayBmb3J3YXJkIHRvIGRpZ2dpbmcgaW4gbW9yZSB0byB1c2UgVGluZGVyYm94IHRvIGNyZWF0ZSBiZWF1dGlmdWwgUERGcy4gVGluZGVyYm94IGlzIHRydWx5IGFuIGFtYXppbmcgdG9vbC4gSVwnOTJtIGp1c3Qgc2NyYXRjaGluZyB0aGUgc3VyZmFjZSBvZiB3aGF0IGl0IGNhbiBkby5cClwKSSB3YW50IHRvIHRoYW5rIGV2ZXJ5b25lIHdobyBwYXJ0aWNpcGF0ZXMgb24gdGhlIEVhc3RnYXRlIGZvcnVtLCBlc3BlY2lhbGx5IHRoZSB0d28gTWFya3MuXApcCiZsdDszIFBhdH0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAw4ixatgEAAAAAAAAAAAAA</rtfd>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4UAgAAKwAAAAEAAAAMAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBoYWQgZnVuIHB1dHRpbmcgdGhpcyB0b2dldGhlciwgYW5kIEkgbG9vayBmb3J3YXJkIHRvIGRpZ2dpbmcgaW4gbW9yZSB0byB1c2UgVGluZGVyYm94IHRvIGNyZWF0ZSBiZWF1dGlmdWwgUERGcy4gVGluZGVyYm94IGlzIHRydWx5IGFuIGFtYXppbmcgdG9vbC4gSVwnOTJtIGp1c3Qgc2NyYXRjaGluZyB0aGUgc3VyZmFjZSBvZiB3aGF0IGl0IGNhbiBkby5cClwKSSB3YW50IHRvIHRoYW5rIGV2ZXJ5b25lIHdobyBwYXJ0aWNpcGF0ZXMgb24gdGhlIEVhc3RnYXRlIGZvcnVtLCBlc3BlY2lhbGx5IHRoZSB0d28gTWFya3MuXApcCiZsdDszIFBhdH0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAT8CxatgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1512886852" Creator="Pat Maddox" >
 <attribute name="Associates" ></attribute>
@@ -1250,20 +1235,36 @@ I want to thank everyone who participates on the Eastgate forum, especially the 
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-09T23:20:51-07:00</attribute>
 <attribute name="Name" >Changes</attribute>
-<attribute name="SelectionCount" >6</attribute>
+<attribute name="SelectionCount" >11</attribute>
 <attribute name="Xpos" >17.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1512898458" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T02:34:17-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T02:34:47-07:00</attribute>
+<attribute name="Name" >v0.1.1</attribute>
+<attribute name="SelectionCount" >12</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >December 10, 2017
+
+* Color links with &lt;code&gt;-V colorlinks=true&lt;/code&gt;</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5vAQAAKwAAAAEAAABnAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxpXGZzMzIgXGNmMCBEZWNlbWJlciAxMCwgMjAxN1wKXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxyaTQwMFxzYjgwXHNhODBccGFyZGlybmF0dXJhbAoKXGkwIFxjZjAgXAoqIENvbG9yIGxpbmtzIHdpdGggPGNvZGU+LVYgY29sb3JsaW5rcz10cnVlPC9jb2RlPn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAC3/yxatgEAAAAAAAAAAAAA</rtfd>
+</item>
 <item ID="1512886854" Creator="Pat Maddox" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-12-09T23:20:53-07:00</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2017-12-09T23:21:37-07:00</attribute>
+<attribute name="Modified" >2017-12-10T02:34:29-07:00</attribute>
 <attribute name="Name" >v0.1.0</attribute>
-<attribute name="SelectionCount" >2</attribute>
+<attribute name="SelectionCount" >11</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
-<text >It’s alive!</text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7mAAAAKwAAAAEAAADeAAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSXRcJzkycyBhbGl2ZSF9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAedIsWrYBAAAAAAAAAAAAAA==</rtfd>
+<text >December 9, 2017
+
+It’s alive!</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5KAQAAKwAAAAEAAABCAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxpXGZzMzIgXGNmMCBEZWNlbWJlciA5LCAyMDE3XApccGFyZFx0eDM2MFx0eDcyMFx0eDEwODBcdHgxNDQwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsCgpcaTAgXGNmMCBcCkl0XCc5MnMgYWxpdmUhfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAKX/LFq2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 </item>
 </item>
@@ -1374,7 +1375,6 @@ I want to thank everyone who participates on the Eastgate forum, especially the 
 <link name="*untitled" sourceid="1512882159" sourcecreator="Pat Maddox" sstart="0" slen="27" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.tug.org/mactex/mactex-download.html"  />
 <link name="*untitled" sourceid="1512881689" sourcecreator="Pat Maddox" sstart="14" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
 <link name="*untitled" sourceid="1512882769" sourcecreator="Pat Maddox" sstart="14" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://brew.sh"  />
-<link name="*untitled" sourceid="1512883112" sourcecreator="Pat Maddox" sstart="21" slen="19" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
 <link name="*untitled" sourceid="1512881762" sourcecreator="Pat Maddox" sstart="19" slen="18" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512881712" destcreator="Pat Maddox" color="normal"  />
 <link name="*untitled" sourceid="1512881822" sourcecreator="Pat Maddox" sstart="0" slen="35" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://pandoc.org/MANUAL.html#syntax-highlighting"  />
 <link name="*untitled" sourceid="1512881965" sourcecreator="Pat Maddox" sstart="85" slen="6" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://github.com"  />
@@ -1382,12 +1382,8 @@ I want to thank everyone who participates on the Eastgate forum, especially the 
 <link name="*untitled" sourceid="1512889538" sourcecreator="Pat Maddox" sstart="26" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879181" destcreator="Pat Maddox" color="normal"  />
 <link name="*untitled" sourceid="1512890466" sourcecreator="Pat Maddox" sstart="4" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879181" destcreator="Pat Maddox" color="normal"  />
 <link name="*untitled" sourceid="1512891504" sourcecreator="Pat Maddox" sstart="4" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879181" destcreator="Pat Maddox" color="normal"  />
-<link name="*untitled" sourceid="1512891540" sourcecreator="Pat Maddox" sstart="62" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes"  />
+<link name="*untitled" sourceid="1512891540" sourcecreator="Pat Maddox" sstart="18" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes"  />
 <link name="*untitled" sourceid="1512881693" sourcecreator="Pat Maddox" sstart="237" slen="12" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/1068"  />
-<link name="*untitled" sourceid="1512881693" sourcecreator="Pat Maddox" sstart="276" slen="84" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/1068"  />
-<link name="*untitled" sourceid="1512882159" sourcecreator="Pat Maddox" sstart="29" slen="46" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.tug.org/mactex/mactex-download.html"  />
-<link name="*untitled" sourceid="1512882769" sourcecreator="Pat Maddox" sstart="52" slen="15" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://brew.sh"  />
-<link name="*untitled" sourceid="1512891540" sourcecreator="Pat Maddox" sstart="118" slen="71" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes"  />
 <link name="*untitled" sourceid="1512881733" sourcecreator="Pat Maddox" sstart="51" slen="41" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://gist.github.com/killercup/5917178"  />
 </links>
 <macros >
@@ -1500,8 +1496,8 @@ I want to thank everyone who participates on the Eastgate forum, especially the 
 <FindWindowY > 100</FindWindowY>
 <RenameWindowX > -1</RenameWindowX>
 <RenameWindowY > -1</RenameWindowY>
-<InspectorX > 1728</InspectorX>
-<InspectorY > 563</InspectorY>
+<InspectorX > 1607</InspectorX>
+<InspectorY > 459</InspectorY>
 <EnterKeyAction > 0</EnterKeyAction>
 <UpdateViewShown > </UpdateViewShown>
 <TimelineScale > 1000</TimelineScale>
@@ -1542,7 +1538,7 @@ I want to thank everyone who participates on the Eastgate forum, especially the 
 <LastVersionString > b292</LastVersionString>
 </preferences>
 <windows >
-<window bounds="Rect[ 564 151 1833 996]" ruler="0" >
+<window bounds="Rect[ 263 98 1532 943]" ruler="0" >
 <tabs >
 <tab selected="1" viewType="1" usingCheckboxes="0" showColumns="0" columnString="" scale="32" ID="1512878960" scrollX="0" scrollY="0" selection="1512879181 " expanded="1512879181 1512879688 " textTab="0" attribute="" sortAttribute="" container="" query="" queryLabel="" action="" actionLabel="" bins="10" summaryAttribute="" summaryMethod="" splitRatio="0.498818" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100"  />
 </tabs>
