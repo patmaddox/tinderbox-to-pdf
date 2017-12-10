@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tinderbox version="2" revision="12" savedBy="7.3.1" >
+<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
+<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1" >
+</attrib>
+<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AccentColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="dark warm gray dark" >
+</attrib>
+<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="BadgeMonochrome" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="BadgeSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" default="automatic" >
+</attrib>
+<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="BorderDash" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="CaptionAlignment" parent="Appearance" editable="1" visibleInEditor="1" default="left" >
+</attrib>
+<attrib Name="CaptionColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="blue" >
+</attrib>
+<attrib Name="CaptionFont" parent="Appearance" editable="1" visibleInEditor="1" type="11" default="SketchnoteSquare" >
+</attrib>
+<attrib Name="CaptionOpacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="CaptionSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="warm gray dark" >
+</attrib>
+<attrib Name="Opacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" default="plain" >
+</attrib>
+<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="light green" >
+</attrib>
+<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="10" >
+</attrib>
+<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
+</attrib>
+<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" suggested="normal;rectangle;oval;diamond;tag;vertical tag;bubble;hex;lozenge;cloud;leaf;banner;arrow" default="" >
+</attrib>
+</attrib>
+<attrib Name="Composites" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Associates" parent="Composites" editable="0" visibleInEditor="1" type="8" canInherit="0" default="" >
+</attrib>
+<attrib Name="IsComposite" parent="Composites" editable="0" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="IsMultiple" parent="Composites" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NeverComposite" parent="Composites" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="OnJoin" parent="Composites" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="Role" parent="Composites" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Events" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DueDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="EndDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="StartDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineAliases" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="TimelineBand" parent="Events" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="TimelineBandLabelColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="TimelineBandLabelOpacity" parent="Events" editable="1" visibleInEditor="1" type="2" default="25" >
+</attrib>
+<attrib Name="TimelineBandLabels" parent="Events" editable="1" visibleInEditor="1" type="10" default="" >
+</attrib>
+<attrib Name="TimelineColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="lighter warm gray" >
+</attrib>
+<attrib Name="TimelineDescendants" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="TimelineEnd" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineEndAttribute" parent="Events" editable="1" visibleInEditor="1" default="EndDate" >
+</attrib>
+<attrib Name="TimelineGridColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="#009090" >
+</attrib>
+<attrib Name="TimelineMarker" parent="Events" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="TimelineScaleColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="cool gray" >
+</attrib>
+<attrib Name="TimelineScaleColor2" parent="Events" editable="1" visibleInEditor="1" type="1" default="" >
+</attrib>
+<attrib Name="TimelineStart" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineStartAttribute" parent="Events" editable="1" visibleInEditor="1" default="StartDate" >
+</attrib>
+</attrib>
+<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AdornmentCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Caption" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Checked" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="CleanupAction" parent="General" editable="1" visibleInEditor="1" default="grid" >
+</attrib>
+<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="Pat Maddox" >
+</attrib>
+<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="DisplayExpressionDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Edict" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="EdictDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="HoverExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="HoverImage" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="HoverOpacity" parent="General" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="ID" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="IsAdornment" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsAlias" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
+</attrib>
+<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OnRemove" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PlainLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
+</attrib>
+<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ReadCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="RuleDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Searchable" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="true" >
+</attrib>
+<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Subtitle" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TextLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Grid" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="GridColor" parent="Grid" editable="1" visibleInEditor="1" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="GridColumns" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="GridLabelFont" parent="Grid" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
+</attrib>
+<attrib Name="GridLabelSize" parent="Grid" editable="1" visibleInEditor="1" type="2" default="10" >
+</attrib>
+<attrib Name="GridLabels" parent="Grid" editable="1" visibleInEditor="1" type="10" default="" >
+</attrib>
+<attrib Name="GridOpacity" parent="Grid" editable="1" visibleInEditor="1" type="2" default="75" >
+</attrib>
+<attrib Name="GridRows" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
+</attrib>
+<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" kind="9" default=".html" >
+</attrib>
+<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportFileNameSpacer" parent="HTML" editable="1" visibleInEditor="1" default="_" >
+</attrib>
+<attrib Name="HTMLExportPath" parent="HTML" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" default="/Templates/HTML page" >
+</attrib>
+<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="24" >
+</attrib>
+<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLFont" parent="HTML" editable="1" visibleInEditor="1" type="11" default="Andale Mono" >
+</attrib>
+<attrib Name="HTMLFontSize" parent="HTML" editable="1" visibleInEditor="1" type="2" default="13" >
+</attrib>
+<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
+</attrib>
+<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/blockquote&gt;" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;blockquote&gt;" >
+</attrib>
+<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
+</attrib>
+<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
+</attrib>
+<attrib Name="HTMLLinkExtension" parent="HTML" editable="1" visibleInEditor="1" default=".html" >
+</attrib>
+<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
+</attrib>
+<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
+</attrib>
+<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
+</attrib>
+<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
+</attrib>
+<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
+</attrib>
+<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
+</attrib>
+<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLPreviewCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLStrikeEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/strike&gt;" >
+</attrib>
+<attrib Name="HTMLStrikeStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;strike&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/u&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;u&gt;" >
+</attrib>
+<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
+<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
+</attrib>
+<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="100" canInherit="0" default="Rect[ 50 50 750 1150]" >
+</attrib>
+</attrib>
+<attrib Name="Iris" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="IrisAngle" parent="Iris" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="IrisRadius" parent="Iris" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+</attrib>
+<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AdornmentFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Light" >
+</attrib>
+<attrib Name="Base" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="Bend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Direction" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.75" >
+</attrib>
+<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1.86" >
+</attrib>
+<attrib Name="HoverFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Med" >
+</attrib>
+<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" type="2" default="1.5" >
+</attrib>
+<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MapBackgroundAccentColor" parent="Map" editable="1" visibleInEditor="1" kind="24" type="1" default="#f2f2ed" >
+</attrib>
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#f2f2ed" >
+</attrib>
+<attrib Name="MapBackgroundColor2" parent="Map" editable="1" visibleInEditor="1" type="1" default="#f2f2ed" >
+</attrib>
+<attrib Name="MapBackgroundFill" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="MapBackgroundFillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.1" >
+</attrib>
+<attrib Name="MapBackgroundPattern" parent="Map" editable="1" visibleInEditor="1" kind="25" default="plain" >
+</attrib>
+<attrib Name="MapBackgroundShadow" parent="Map" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="left" >
+</attrib>
+<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" type="11" default="IdealSansSSm-Book" >
+</attrib>
+<attrib Name="NameLeading" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="NameStrike" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="PlotBackgroundColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="white" >
+</attrib>
+<attrib Name="PlotBackgroundOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="50" >
+</attrib>
+<attrib Name="PlotColorList" parent="Map" editable="1" visibleInEditor="1" type="10" default="2;7;3;8;4;9;0;5;1;6" >
+</attrib>
+<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SubtitleColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="SubtitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="50" >
+</attrib>
+<attrib Name="SubtitleSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="75" >
+</attrib>
+<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Tip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="TitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="3" >
+</attrib>
+<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="NoteURL" parent="Net" editable="0" visibleInEditor="1" default="RSSItem" >
+</attrib>
+<attrib Name="RSSChannelTemplate" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RSSItemLimit" parent="Net" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="RSSItemTemplate" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="OutlineBackgroundColor" parent="Outline" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="PrototypeHighlightColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#cceecc" >
+</attrib>
+<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AIM" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Address" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="City" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Country" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="District" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FormattedAddress" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="GeocodedAddress" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Latitude" parent="People" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Longitude" parent="People" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PostalCode" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="State" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Twitter" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="References" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Abstract" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="AccessDate" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ArticleTitle" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Author2" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Author3" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Author4" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Authors" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="BookTitle" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="CallNumber" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="DOI" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Edition" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ISBN" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Issue" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Journal" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Pages" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PublicationCity" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PublicationYear" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Publisher" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RefFormat" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RefKeywords" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="RefType" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ReferenceRIS" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ReferenceTitle" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ReferenceURL" parent="References" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="SourceCreated" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="SourceModified" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="Tags" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="Volume" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Sandbox" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="MyBoolean" parent="Sandbox" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MyColor" parent="Sandbox" editable="1" visibleInEditor="1" type="1" default="" >
+</attrib>
+<attrib Name="MyDate" parent="Sandbox" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="MyInterval" parent="Sandbox" editable="1" visibleInEditor="1" type="12" default="00:00" >
+</attrib>
+<attrib Name="MyList" parent="Sandbox" editable="1" visibleInEditor="1" type="10" default="" >
+</attrib>
+<attrib Name="MyNumber" parent="Sandbox" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="MySet" parent="Sandbox" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="MyString" parent="Sandbox" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Scrivener" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ScrivenerCompileAsIs" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerFileExtension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerFreeformFlag" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerID" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerIconFileName" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerIgnoresTitlePrefixAndSuffix" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerIncludeInCompile" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerIndexCardFileExension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerKeywords" parent="Scrivener" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="ScrivenerLabel" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerLabelID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="ScrivenerNote" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerNoteRTF" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerPageBreakBefore" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerPreferredExternalApplication" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerShowSynopsisImage" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerStatus" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerStatusID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="ScrivenerTemplateFolder" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerType" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+</attrib>
+<attrib Name="Storyspace" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="BeforeVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="ChosenWord" parent="Storyspace" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Deck" parent="Storyspace" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="OnVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="Requirements" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="ResetAction" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="Visits" parent="Storyspace" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HideKeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="KeyAttributeDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="KeyAttributeFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
+</attrib>
+<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NoSpelling" parent="TextFormat" editable="1" visibleInEditor="1" kind="27" type="4" default="false" >
+</attrib>
+<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" type="2" default="8" >
+</attrib>
+<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" kind="5" type="4" default="false" >
+</attrib>
+<attrib Name="SmartQuotes" parent="TextFormat" editable="1" visibleInEditor="1" kind="26" type="4" default="true" >
+</attrib>
+<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.25;0.25;0.25;0.25;" >
+</attrib>
+<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" kind="22" default="left" >
+</attrib>
+<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
+</attrib>
+<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" type="11" default="MercurySSm-Book" >
+</attrib>
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="16" >
+</attrib>
+<attrib Name="TextPaneRatio" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="TextPaneWidth" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="-1" >
+</attrib>
+<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="false" >
+</attrib>
+<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#000000" >
+</attrib>
+<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" type="11" default="HelveticaNeue" >
+</attrib>
+<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#ffffff" >
+</attrib>
+</attrib>
+<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ImageCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="outline" >
+</attrib>
+<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Watch" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DEVONthinkGroup" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="EvernoteNotebook" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="NotesFolder" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="NotesID" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="NotesModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="SimplenoteKey" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SimplenoteModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="SimplenoteSync" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="SimplenoteTags" parent="Watch" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="SimplenoteVersion" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="SourceURL" parent="Watch" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="UUID" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="WatchFolder" parent="Watch" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+</attrib>
+<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+</attrib>
+<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="PDFAuthor" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PDFDate" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PDFDocumentClass" parent="User" editable="1" visibleInEditor="1" suggested="article;report;book;memoir" default="" >
+</attrib>
+<attrib Name="PDFExportFileName" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PDFIncludeTOC" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+</attrib>
+<colors >
+<color name="0" color="#7a7978" hidden="0"  />
+<color name="1" color="#a19f9e" hidden="0"  />
+<color name="2" color="#b8b6b4" hidden="0"  />
+<color name="3" color="#c7c5c3" hidden="0"  />
+<color name="4" color="#d4d2d0" hidden="0"  />
+<color name="5" color="#dedcda" hidden="0"  />
+<color name="6" color="#e6e4e1" hidden="0"  />
+<color name="7" color="#eeebe9" hidden="0"  />
+<color name="8" color="#f4f2ef" hidden="0"  />
+<color name="9" color="#faf8f5" hidden="0"  />
+<color name="black" color="#000000" hidden="0"  />
+<color name="blue" color="#003366" hidden="0"  />
+<color name="bright blue" color="#0000ff" hidden="0"  />
+<color name="bright green" color="#00ff00" hidden="0"  />
+<color name="bright red" color="#ff0000" hidden="0"  />
+<color name="cool gray" color="#607080" hidden="0"  />
+<color name="cool gray dark" color="#505860" hidden="0"  />
+<color name="cyan" color="#006666" hidden="0"  />
+<color name="green" color="#009900" hidden="0"  />
+<color name="magenta" color="#660066" hidden="0"  />
+<color name="normal" color="#dc490b" hidden="0"  />
+<color name="orange" color="#ff8800" hidden="0"  />
+<color name="poppy" color="#ffcc66" hidden="0"  />
+<color name="red" color="#990000" hidden="0"  />
+<color name="violet" color="#330099" hidden="0"  />
+<color name="warm gray" color="#787060" hidden="0"  />
+<color name="warm gray dark" color="#605850" hidden="0"  />
+<color name="white" color="#ffffff" hidden="0"  />
+<color name="yellow" color="#cccc00" hidden="0"  />
+</colors>
+<menu name="Value" kind="stamps" >
+</menu>
+<linkTypes >
+<linkType name="*untitled" label="" visible="1" showLabel="0" required="1" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="agree" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="clarify" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="disagree" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="example" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="exception" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="note" visible="1" showLabel="1" required="1" color="#666666" colorString="#666666" style="0" arrowType="0"  />
+<linkType name="note+" visible="1" showLabel="1" required="1" color="#444444" colorString="#444444" style="0" arrowType="0"  />
+<linkType name="prototype" visible="0" showLabel="1" required="1" color="#993333" colorString="#993333" style="0" arrowType="0"  />
+<linkType name="response" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="update" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+</linkTypes>
+<item ID="1512878960" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:09:19-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="MapScrollX" >0</attribute>
+<attribute name="MapScrollY" >0</attribute>
+<attribute name="Modified" >2017-12-09T21:09:19-07:00</attribute>
+<attribute name="Name" >tinderbox-to-pdf_v0_1_0</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1512879181" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Badge" >check mark</attribute>
+<attribute name="Created" >2017-12-09T21:13:00-07:00</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="HTMLExportCommand" >PATH=/Library/TeX/texbin:$PATH /usr/local/bin/pandoc -s -r html -o ~/Documents/tinderbox-to-pdf-v0_1_0.pdf -V documentclass=report --toc</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="KeyAttributes" >PDFAuthor;PDFDate;PDFExportFileName;PDFIncludeTOC;PDFDocumentClass</attribute>
+<attribute name="Modified" >2017-12-09T21:54:44-07:00</attribute>
+<attribute name="Name" >Create Beautiful PDFs From Your Tinderbox Documents</attribute>
+<attribute name="PDFAuthor" >Pat Maddox – pat@patmaddox.com</attribute>
+<attribute name="PDFDate" >v0.1.0 – December 9th, 2017</attribute>
+<attribute name="PDFDocumentClass" >report</attribute>
+<attribute name="PDFExportFileName" >~/Documents/tinderbox-to-pdf-v0_1_0.pdf</attribute>
+<attribute name="PDFIncludeTOC" >true</attribute>
+<attribute name="Rule" >var whichLatex;
+var whichPandoc;
+
+whichLatex = runCommand(&quot;which /Library/TeX/texbin/xelatex&quot;);
+whichPandoc = runCommand(&quot;which /usr/local/bin/pandoc&quot;);
+
+$Badge = &quot;x&quot;;
+$HTMLExportCommand = ;
+
+if(whichLatex.contains(&quot;/Library/TeX/texbin/xelatex&quot;) &amp; whichPandoc.contains(&quot;/usr/local/bin/pandoc&quot;)) {
+  $HoverExpression = ;
+  if(!$PDFExportFileName) { $PDFExportFileName = &quot;~/Documents/tinderbox-to-pdf.pdf&quot;; };
+
+  var CommandString;
+
+  CommandString=&quot;PATH=/Library/TeX/texbin:$PATH /usr/local/bin/pandoc -s -r html -o &quot; + $PDFExportFileName;
+
+  if($PDFDocumentClass &amp; !CommandString.contains(&quot;-V documentclass=&quot; + $PDFDocumentClass)) { CommandString = CommandString + &quot; -V documentclass=&quot; + $PDFDocumentClass; };
+
+  if($PDFIncludeTOC &amp; !CommandString.contains(&quot;--toc&quot;)) { CommandString = CommandString + &quot; --toc&quot;; };
+
+  $HTMLExportCommand = CommandString;
+  $Badge = &quot;check mark&quot;;
+} else {
+  var hoverExpression(&quot;Missing&quot;);
+
+  if(!whichLatex.contains(&quot;/Library/TeX/texbin/xelatex&quot;)) {
+    hoverExpression = hoverExpression + &quot; latex&quot;;
+  };
+
+  if(!whichPandoc.contains(&quot;/usr/local/bin/pandoc&quot;)) {
+    hoverExpression = hoverExpression + &quot; pandoc&quot;;
+  };
+
+  $HoverExpression = hoverExpression;
+};</attribute>
+<attribute name="RuleDisabled" >false</attribute>
+<attribute name="SelectionCount" >110</attribute>
+<attribute name="Xpos" >31.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1512881689" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:54:48-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T22:00:24-07:00</attribute>
+<attribute name="Name" >The Goal</attribute>
+<attribute name="SelectionCount" >34</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I want to use Tinderbox to create structured documents, and then export them to beautiful PDFs.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC49AQAAKwAAAAEAAAA1AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSB3YW50IHRvIHVzZSBUaW5kZXJib3ggdG8gY3JlYXRlIHN0cnVjdHVyZWQgZG9jdW1lbnRzLCBhbmQgdGhlbiBleHBvcnQgdGhlbSB0byBiZWF1dGlmdWwgUERGcy59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA7essWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1512881693" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:54:52-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T01:18:05-07:00</attribute>
+<attribute name="Name" >Potential Gotchas</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I have installed lots of different software on my computer, so I’m not 100% sure what is required to make this work. The first few people to use this will be brave and patient souls indeed. I will do my best to help out.
+
+I’ve created a forum thread to discuss this document:
+http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/1068</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5PAgAAKwAAAAEAAABHAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBoYXZlIGluc3RhbGxlZCBsb3RzIG9mIGRpZmZlcmVudCBzb2Z0d2FyZSBvbiBteSBjb21wdXRlciwgc28gSVwnOTJtIG5vdCAxMDAlIHN1cmUgd2hhdCBpcyByZXF1aXJlZCB0byBtYWtlIHRoaXMgd29yay4gVGhlIGZpcnN0IGZldyBwZW9wbGUgdG8gdXNlIHRoaXMgd2lsbCBiZSBicmF2ZSBhbmQgcGF0aWVudCBzb3VscyBpbmRlZWQuIEkgd2lsbCBkbyBteSBiZXN0IHRvIGhlbHAgb3V0LlwKXApJXCc5MnZlIGNyZWF0ZWQgYSBmb3J1bSB0aHJlYWQgdG8gZGlzY3VzcyB0aGlzIGRvY3VtZW50OlwKaHR0cDovL2ZvcnVtLmVhc3RnYXRlLmNvbS90L2NyZWF0ZS1iZWF1dGlmdWwtcGRmcy1mcm9tLXlvdXItdGluZGVyYm94LWRvY3VtZW50cy8xMDY4fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAHTuLFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1512881712" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:55:11-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:13:30-07:00</attribute>
+<attribute name="Name" >Setup Instructions</attribute>
+<attribute name="SelectionCount" >18</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I recommend reading the Setup Instructions in their entirety before doing anything. If anything looks scary or confusing, ask for help.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5uAQAAKwAAAAEAAABmAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSByZWNvbW1lbmQgcmVhZGluZyB0aGUgClxpIFNldHVwIEluc3RydWN0aW9ucwpcaTAgIGluIHRoZWlyIGVudGlyZXR5IGJlZm9yZSBkb2luZyBhbnl0aGluZy4gSWYgYW55dGhpbmcgbG9va3Mgc2Nhcnkgb3IgY29uZnVzaW5nLCBhc2sgZm9yIGhlbHAufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAKHeLFq2AQAAAAAAAAAAAAA=</rtfd>
+<item ID="1512882159" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T22:02:38-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:16:14-07:00</attribute>
+<attribute name="Name" >LaTeX</attribute>
+<attribute name="SelectionCount" >14</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Download and install MacTeX:
+http://www.tug.org/mactex/mactex-download.html
+
+This will take a while. The download is 3 GB.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5bAQAAKwAAAAEAAABTAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRG93bmxvYWQgYW5kIGluc3RhbGwgTWFjVGVYOlwKaHR0cDovL3d3dy50dWcub3JnL21hY3RleC9tYWN0ZXgtZG93bmxvYWQuaHRtbFwKXApUaGlzIHdpbGwgdGFrZSBhIHdoaWxlLiBUaGUgZG93bmxvYWQgaXMgMyBHQi59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAPt8sWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1512882769" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T22:12:48-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:16:21-07:00</attribute>
+<attribute name="Name" >Pandoc</attribute>
+<attribute name="SelectionCount" >13</attribute>
+<attribute name="URL" >https://brew.sh/</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >First install Homebrew, a package manager for OS X: https://brew.sh
+
+Then use Homebrew to install Pandoc.
+
+&lt;code&gt;brew install pandoc&lt;/code&gt;
+
+This will take a while. I think it took 40 minutes on my MacBook Pro.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC62AQAAKwAAAAEAAACuAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRmlyc3QgaW5zdGFsbCBIb21lYnJldywgYSBwYWNrYWdlIG1hbmFnZXIgZm9yIE9TIFg6IGh0dHBzOi8vYnJldy5zaFwKXApUaGVuIHVzZSBIb21lYnJldyB0byBpbnN0YWxsIFBhbmRvYy5cClwKPGNvZGU+YnJldyBpbnN0YWxsIHBhbmRvYzwvY29kZT5cClwKVGhpcyB3aWxsIHRha2UgYSB3aGlsZS4gSSB0aGluayBpdCB0b29rIDQwIG1pbnV0ZXMgb24gbXkgTWFjQm9vayBQcm8ufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAEzfLFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1512889538" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:05:37-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:08:02-07:00</attribute>
+<attribute name="Name" >Verify the installation</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >If everything worked, the root note should change its badge from a red x to a green check mark.
+
+If you still see a red x, hover over the root note and it should display which dependency is missing.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6mAQAAKwAAAAEAAACeAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSWYgZXZlcnl0aGluZyB3b3JrZWQsIHRoZSByb290IG5vdGUgc2hvdWxkIGNoYW5nZSBpdHMgYmFkZ2UgZnJvbSBhIHJlZCB4IHRvIGEgZ3JlZW4gY2hlY2sgbWFyay5cClwKSWYgeW91IHN0aWxsIHNlZSBhIHJlZCB4LCBob3ZlciBvdmVyIHRoZSByb290IG5vdGUgYW5kIGl0IHNob3VsZCBkaXNwbGF5IHdoaWNoIGRlcGVuZGVuY3kgaXMgbWlzc2luZy59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAit0sWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
+<item ID="1512883436" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T22:23:55-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T23:24:39-07:00</attribute>
+<attribute name="Name" >Create Your Own PDFs!</attribute>
+<attribute name="SelectionCount" >46</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Now for the fun stuff! This document can produce PDFs, so all you need to do is edit it, export to HTML, and you’re set. Run &lt;code&gt;File-&gt;Export-&gt;as HTML&lt;/code&gt; and your PDF should export to &lt;code&gt;~/Documents/tinderbox-to-pdf.pdf&lt;/code&gt;. If not, open the exported HTML file to see if Pandoc reported any errors.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4XAgAAKwAAAAEAAAAPAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgTm93IGZvciB0aGUgZnVuIHN0dWZmISBUaGlzIGRvY3VtZW50IGNhbiBwcm9kdWNlIFBERnMsIHNvIGFsbCB5b3UgbmVlZCB0byBkbyBpcyBlZGl0IGl0LCBleHBvcnQgdG8gSFRNTCwgYW5kIHlvdVwnOTJyZSBzZXQuIFJ1biA8Y29kZT5GaWxlLT5FeHBvcnQtPmFzIEhUTUw8L2NvZGU+IGFuZCB5b3VyIFBERiBzaG91bGQgZXhwb3J0IHRvIDxjb2RlPn4vRG9jdW1lbnRzL3RpbmRlcmJveC10by1wZGYucGRmPC9jb2RlPi4gSWYgbm90LCBvcGVuIHRoZSBleHBvcnRlZCBIVE1MIGZpbGUgdG8gc2VlIGlmIFBhbmRvYyByZXBvcnRlZCBhbnkgZXJyb3JzLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAn0yxatgEAAAAAAAAAAAAA</rtfd>
+<item ID="1512891504" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:38:00-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:38:28-07:00</attribute>
+<attribute name="Name" >Options</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >The root note has several key attributes which are mostly self-explanatory. Here’s a bit more information on them.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5NAQAAKwAAAAEAAABFAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgVGhlIHJvb3Qgbm90ZSBoYXMgc2V2ZXJhbCBrZXkgYXR0cmlidXRlcyB3aGljaCBhcmUgbW9zdGx5IHNlbGYtZXhwbGFuYXRvcnkuIEhlcmVcJzkycyBhIGJpdCBtb3JlIGluZm9ybWF0aW9uIG9uIHRoZW0ufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAHTkLFq2AQAAAAAAAAAAAAA=</rtfd>
+<item ID="1512891528" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:38:47-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T01:00:31-07:00</attribute>
+<attribute name="Name" >PDFAuthor</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Optional – If you leave this blank, the author line won’t appear on the cover page.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4+AQAAKwAAAAEAAAA2AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxpXGZzMzIgXGNmMCBPcHRpb25hbApcaTAgIFwnOTYgSWYgeW91IGxlYXZlIHRoaXMgYmxhbmssIHRoZSBhdXRob3IgbGluZSB3b25cJzkydCBhcHBlYXIgb24gdGhlIGNvdmVyIHBhZ2UufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAJ/pLFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1512891531" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:38:50-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T01:00:38-07:00</attribute>
+<attribute name="Name" >PDFDate</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Optional – If you leave this blank, the date line won’t appear on the cover page.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC48AQAAKwAAAAEAAAA0AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxpXGZzMzIgXGNmMCBPcHRpb25hbApcaTAgIFwnOTYgSWYgeW91IGxlYXZlIHRoaXMgYmxhbmssIHRoZSBkYXRlIGxpbmUgd29uXCc5MnQgYXBwZWFyIG9uIHRoZSBjb3ZlciBwYWdlLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAACm6SxatgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1512891533" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:38:52-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T01:02:03-07:00</attribute>
+<attribute name="Name" >PDFExportFileName</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Required – If you leave this blank, it defaults to &lt;code&gt;~/Documents/tinderbox-to-pdf.pdf&lt;/code&gt;</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5wAQAAKwAAAAEAAABoAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLU1lZGl1bTtcZjFcZm5pbFxmY2hhcnNldDAgTWVyY3VyeVNTbS1Cb29rO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDM2MFx0eDcyMFx0eDEwODBcdHgxNDQwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsCgpcZjBcYlxmczMyIFxjZjAgUmVxdWlyZWQKXGYxXGIwICBcJzk2IElmIHlvdSBsZWF2ZSB0aGlzIGJsYW5rLCBpdCBkZWZhdWx0cyB0byA8Y29kZT5+L0RvY3VtZW50cy90aW5kZXJib3gtdG8tcGRmLnBkZjwvY29kZT59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA++ksWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1512891537" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:38:56-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T01:02:24-07:00</attribute>
+<attribute name="Name" >PDFIncludeTOC</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Boolean – optionally include a Table of Contents in the PDF.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4eAQAAKwAAAAEAAAAWAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxpXGZzMzIgXGNmMCBCb29sZWFuClxpMCAgXCc5NiBvcHRpb25hbGx5IGluY2x1ZGUgYSBUYWJsZSBvZiBDb250ZW50cyBpbiB0aGUgUERGLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAQ6ixatgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1512891540" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:38:59-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T01:22:33-07:00</attribute>
+<attribute name="Name" >PDFDocumentClass</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I don’t know much about this, to be honest. LaTeX has several document classes available which change the PDF format:
+https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6fAQAAKwAAAAEAAACXAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBkb25cJzkydCBrbm93IG11Y2ggYWJvdXQgdGhpcywgdG8gYmUgaG9uZXN0LiBMYVRlWCBoYXMgc2V2ZXJhbCBkb2N1bWVudCBjbGFzc2VzIGF2YWlsYWJsZSB3aGljaCBjaGFuZ2UgdGhlIFBERiBmb3JtYXQ6XApodHRwczovL2VuLndpa2lib29rcy5vcmcvd2lraS9MYVRlWC9Eb2N1bWVudF9TdHJ1Y3R1cmUjRG9jdW1lbnRfY2xhc3Nlc30BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAADJ7ixatgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+</item>
+<item ID="1512881730" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:55:29-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T21:55:29-07:00</attribute>
+<attribute name="Name" >Open Questions</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1512883112" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T22:18:31-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T22:22:50-07:00</attribute>
+<attribute name="Name" >Can I visually indicate external links?</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Xpos" >24.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >External links (e.g. Tinderbox home page) don’t receive any styling. There’s no visual indicator that there’s a link there.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5iAQAAKwAAAAEAAABaAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgRXh0ZXJuYWwgbGlua3MgKGUuZy4gVGluZGVyYm94IGhvbWUgcGFnZSkgZG9uXCc5MnQgcmVjZWl2ZSBhbnkgc3R5bGluZy4gVGhlcmVcJzkycyBubyB2aXN1YWwgaW5kaWNhdG9yIHRoYXQgdGhlcmVcJzkycyBhIGxpbmsgdGhlcmUufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAACfFLFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1512881733" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:55:32-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T22:30:03-07:00</attribute>
+<attribute name="Name" >How can I make it more beautiful?</attribute>
+<attribute name="SelectionCount" >21</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Pandoc has some mechanism for adding stylesheets.
+
+https://gist.github.com/killercup/5917178 is a possible stylesheet to add.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC72AQAAKwAAAAEAAADuAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgUGFuZG9jIGhhcyBzb21lIG1lY2hhbmlzbSBmb3IgYWRkaW5nIHN0eWxlc2hlZXRzLlwKXApccGFyZFx0eDM2MFx0eDcyMFx0eDEwODBcdHgxNDQwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2lzdC5naXRodWIuY29tL2tpbGxlcmN1cC81OTE3MTc4In19e1xmbGRyc2x0IFxjZjAgaHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20va2lsbGVyY3VwLzU5MTcxNzh9fSBpcyBhIHBvc3NpYmxlIHN0eWxlc2hlZXQgdG8gYWRkLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABbxixatgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1512881762" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:56:01-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:30:57-07:00</attribute>
+<attribute name="Name" >Will text links work?</attribute>
+<attribute name="SelectionCount" >16</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Can I link back to Setup Instructions?
+
+Nope – the exported HTML does not include that link.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4/AQAAKwAAAAEAAAA3AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgQ2FuIEkgbGluayBiYWNrIHRvIFNldHVwIEluc3RydWN0aW9ucz9cClwKTm9wZSBcJzk2IHRoZSBleHBvcnRlZCBIVE1MIGRvZXMgbm90IGluY2x1ZGUgdGhhdCBsaW5rLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAACx4ixatgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1512881779" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:56:18-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:32:04-07:00</attribute>
+<attribute name="Name" >Can I build a PDF using a stamp instead of HTML export?</attribute>
+<attribute name="SelectionCount" >16</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >This document currently hooks into the HTML export process, and uses &lt;code&gt;$HTMLExportCommand&lt;/code&gt; to pass the exported HTML to Pandoc. I’d like to run it with a stamp, if possible.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6YAQAAKwAAAAEAAACQAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgVGhpcyBkb2N1bWVudCBjdXJyZW50bHkgaG9va3MgaW50byB0aGUgSFRNTCBleHBvcnQgcHJvY2VzcywgYW5kIHVzZXMgPGNvZGU+JEhUTUxFeHBvcnRDb21tYW5kPC9jb2RlPiB0byBwYXNzIHRoZSBleHBvcnRlZCBIVE1MIHRvIFBhbmRvYy4gSVwnOTJkIGxpa2UgdG8gcnVuIGl0IHdpdGggYSBzdGFtcCwgaWYgcG9zc2libGUufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAPTiLFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1512881822" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:57:01-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T22:32:47-07:00</attribute>
+<attribute name="Name" >Can I do code highlighting?</attribute>
+<attribute name="SelectionCount" >11</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Pandoc supports syntax highlighting. What do I need to do to make it work?</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4oAQAAKwAAAAEAAAAgAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgUGFuZG9jIHN1cHBvcnRzIHN5bnRheCBoaWdobGlnaHRpbmcuIFdoYXQgZG8gSSBuZWVkIHRvIGRvIHRvIG1ha2UgaXQgd29yaz99AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAADccsWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1512881936" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:58:55-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T23:03:21-07:00</attribute>
+<attribute name="Name" >How can I add page breaks?</attribute>
+<attribute name="SelectionCount" >11</attribute>
+<attribute name="URL" >https://stackoverflow.com/questions/16965490/pandoc-markdown-page-break</attribute>
+<attribute name="Xpos" >17.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Setting the LaTeX variable &lt;code&gt;documentclass&lt;/code&gt; to &lt;code&gt;report&lt;/code&gt; does a pretty good job of formatting the document. It creates page breaks between each of the major sections, without producing unnecessary blank pages the way &lt;code&gt;book&lt;/code&gt; and &lt;code&gt;memoir&lt;/code&gt; do.
+
+I would like to be able to:
+
+* choose the &lt;code&gt;documentclass&lt;/code&gt; without producing unnecessary blank pages
+* manually define page breaks where I want them
+* hide the “Chapter 1” headings</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7NAgAAKwAAAAEAAADFAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgU2V0dGluZyB0aGUgTGFUZVggdmFyaWFibGUgPGNvZGU+ZG9jdW1lbnRjbGFzczwvY29kZT4gdG8gPGNvZGU+cmVwb3J0PC9jb2RlPiBkb2VzIGEgcHJldHR5IGdvb2Qgam9iIG9mIGZvcm1hdHRpbmcgdGhlIGRvY3VtZW50LiBJdCBjcmVhdGVzIHBhZ2UgYnJlYWtzIGJldHdlZW4gZWFjaCBvZiB0aGUgbWFqb3Igc2VjdGlvbnMsIHdpdGhvdXQgcHJvZHVjaW5nIHVubmVjZXNzYXJ5IGJsYW5rIHBhZ2VzIHRoZSB3YXkgPGNvZGU+Ym9vazwvY29kZT4gYW5kIDxjb2RlPm1lbW9pcjwvY29kZT4gZG8uXApcCkkgd291bGQgbGlrZSB0byBiZSBhYmxlIHRvOlwKXAoqIGNob29zZSB0aGUgPGNvZGU+ZG9jdW1lbnRjbGFzczwvY29kZT4gClxpIHdpdGhvdXQKXGkwICBwcm9kdWNpbmcgdW5uZWNlc3NhcnkgYmxhbmsgcGFnZXNcCiogbWFudWFsbHkgZGVmaW5lIHBhZ2UgYnJlYWtzIHdoZXJlIEkgd2FudCB0aGVtXAoqIGhpZGUgdGhlIFwnOTNDaGFwdGVyIDFcJzk0IGhlYWRpbmdzfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAACnOLFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1512883574" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T22:26:13-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T22:38:52-07:00</attribute>
+<attribute name="Name" >Can I maintain the generated HTML?</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >31.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >&lt;code&gt;$HTMLExportCommand&lt;/code&gt; currently intercepts the exported HTML and passes it to Pandoc, without returning the original HTML. This produces an empty HTML file. I’d like to maintain the original HTML file if possible.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7AAQAAKwAAAAEAAAC4AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgPGNvZGU+JEhUTUxFeHBvcnRDb21tYW5kPC9jb2RlPiBjdXJyZW50bHkgaW50ZXJjZXB0cyB0aGUgZXhwb3J0ZWQgSFRNTCBhbmQgcGFzc2VzIGl0IHRvIFBhbmRvYywgd2l0aG91dCByZXR1cm5pbmcgdGhlIG9yaWdpbmFsIEhUTUwuIFRoaXMgcHJvZHVjZXMgYW4gZW1wdHkgSFRNTCBmaWxlLiBJXCc5MmQgbGlrZSB0byBtYWludGFpbiB0aGUgb3JpZ2luYWwgSFRNTCBmaWxlIGlmIHBvc3NpYmxlLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAB1yCxatgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1512881882" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:58:01-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T22:40:03-07:00</attribute>
+<attribute name="Name" >Can I distribute updates to this document?</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I anticipate adding more infrastructure to this document to make it more useful to myself and others. How can I do that without breaking any infrastructure they may have added?</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6IAQAAKwAAAAEAAACAAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBhbnRpY2lwYXRlIGFkZGluZyBtb3JlIGluZnJhc3RydWN0dXJlIHRvIHRoaXMgZG9jdW1lbnQgdG8gbWFrZSBpdCBtb3JlIHVzZWZ1bCB0byBteXNlbGYgYW5kIG90aGVycy4gSG93IGNhbiBJIGRvIHRoYXQgd2l0aG91dCBicmVha2luZyBhbnkgaW5mcmFzdHJ1Y3R1cmUgdGhleSBtYXkgaGF2ZSBhZGRlZD99AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAs8gsWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1512881965" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:59:24-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T22:41:31-07:00</attribute>
+<attribute name="Name" >Can people collaborate on this document?</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >21</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I would like other people to be able to contribute to this document if they desire.
+
+GitHub is amazing for collaborating on code, but I think the highly-structured XML of a Tinderbox document doesn’t lend itself very well to using git. That’s an assumption that I’ve not yet tested.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4DAgAAKwAAAAEAAAD7AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSB3b3VsZCBsaWtlIG90aGVyIHBlb3BsZSB0byBiZSBhYmxlIHRvIGNvbnRyaWJ1dGUgdG8gdGhpcyBkb2N1bWVudCBpZiB0aGV5IGRlc2lyZS5cClwKR2l0SHViIGlzIGFtYXppbmcgZm9yIGNvbGxhYm9yYXRpbmcgb24gY29kZSwgYnV0IEkgdGhpbmsgdGhlIGhpZ2hseS1zdHJ1Y3R1cmVkIFhNTCBvZiBhIFRpbmRlcmJveCBkb2N1bWVudCBkb2VzblwnOTJ0IGxlbmQgaXRzZWxmIHZlcnkgd2VsbCB0byB1c2luZyBnaXQuIFRoYXRcJzkycyBhbiBhc3N1bXB0aW9uIHRoYXQgSVwnOTJ2ZSBub3QgeWV0IHRlc3RlZC59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA58ksWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
+<item ID="1512890449" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:20:48-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:20:48-07:00</attribute>
+<attribute name="Name" >Implementation Notes</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Xpos" >24.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1512890466" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:21:05-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:23:16-07:00</attribute>
+<attribute name="Name" >How $HTMLExportCommand gets built</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >The root note has a rule set which looks at the various attributes, and uses them to construct &lt;code&gt;$HTMLExportCommand&lt;/code&gt;. End users should never have to modify it directly.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6QAQAAKwAAAAEAAACIAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgVGhlIHJvb3Qgbm90ZSBoYXMgYSBydWxlIHNldCB3aGljaCBsb29rcyBhdCB0aGUgdmFyaW91cyBhdHRyaWJ1dGVzLCBhbmQgdXNlcyB0aGVtIHRvIGNvbnN0cnVjdCA8Y29kZT4kSFRNTEV4cG9ydENvbW1hbmQ8L2NvZGU+LiBFbmQgdXNlcnMgc2hvdWxkIG5ldmVyIGhhdmUgdG8gbW9kaWZ5IGl0IGRpcmVjdGx5Ln0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAD74CxatgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1512890634" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:23:53-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T01:07:50-07:00</attribute>
+<attribute name="Name" >The Big Rule (aka where to look to debug this document)</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >The root note has a rule that does the following:
+
+* checks for dependencies
+* builds the &lt;code&gt;$HTMLExportCommand&lt;/code&gt;
+* sets the &lt;code&gt;$Badge&lt;/code&gt;
+
+It sets the &lt;code&gt;$Badge&lt;/code&gt; to a red x at the beginning, and only sets it to a green check if everything works correctly.
+
+If the green check doesn’t get set, it could be a missing dependency (hover over the note to find out), or it could be an error in the &lt;code&gt;$Action&lt;/code&gt; code.
+
+Note: Because The Big Rule always sets the &lt;code&gt;$Badge&lt;/code&gt; at the beginning, the document always appears as modified. It would be nice if it didn’t do that.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6RAwAAKwAAAAEAAACJAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgVGhlIHJvb3Qgbm90ZSBoYXMgYSBydWxlIHRoYXQgZG9lcyB0aGUgZm9sbG93aW5nOlwKXAoqIGNoZWNrcyBmb3IgZGVwZW5kZW5jaWVzXAoqIGJ1aWxkcyB0aGUgPGNvZGU+JEhUTUxFeHBvcnRDb21tYW5kPC9jb2RlPlwKKiBzZXRzIHRoZSA8Y29kZT4kQmFkZ2U8L2NvZGU+XApcCkl0IHNldHMgdGhlIDxjb2RlPiRCYWRnZTwvY29kZT4gdG8gYSByZWQgeCBhdCB0aGUgYmVnaW5uaW5nLCBhbmQgb25seSBzZXRzIGl0IHRvIGEgZ3JlZW4gY2hlY2sgaWYgZXZlcnl0aGluZyB3b3JrcyBjb3JyZWN0bHkuXApcCklmIHRoZSBncmVlbiBjaGVjayBkb2VzblwnOTJ0IGdldCBzZXQsIGl0IGNvdWxkIGJlIGEgbWlzc2luZyBkZXBlbmRlbmN5IChob3ZlciBvdmVyIHRoZSBub3RlIHRvIGZpbmQgb3V0KSwgb3IgaXQgY291bGQgYmUgYW4gZXJyb3IgaW4gdGhlIDxjb2RlPiRBY3Rpb248L2NvZGU+IGNvZGUuXApcClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxpIFxjZjAgTm90ZTogQmVjYXVzZSBUaGUgQmlnIFJ1bGUgYWx3YXlzIHNldHMgdGhlIDxjb2RlPiRCYWRnZTwvY29kZT4gYXQgdGhlIGJlZ2lubmluZywgdGhlIGRvY3VtZW50IGFsd2F5cyBhcHBlYXJzIGFzIG1vZGlmaWVkLiBJdCB3b3VsZCBiZSBuaWNlIGlmIGl0IGRpZG5cJzkydCBkbyB0aGF0Ln0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABc6yxatgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+<item ID="1512890237" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-10T00:17:16-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-10T00:19:39-07:00</attribute>
+<attribute name="Name" >Thanks</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >21</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I had fun putting this together, and I look forward to digging in more to use Tinderbox to create beautiful PDFs. Tinderbox is truly an amazing tool. I’m just scratching the surface of what it can do.
+
+I want to thank everyone who participates on the Eastgate forum, especially the two Marks.
+
+&amp;lt;3 Pat</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4UAgAAKwAAAAEAAAAMAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSBoYWQgZnVuIHB1dHRpbmcgdGhpcyB0b2dldGhlciwgYW5kIEkgbG9vayBmb3J3YXJkIHRvIGRpZ2dpbmcgaW4gbW9yZSB0byB1c2UgVGluZGVyYm94IHRvIGNyZWF0ZSBiZWF1dGlmdWwgUERGcy4gVGluZGVyYm94IGlzIHRydWx5IGFuIGFtYXppbmcgdG9vbC4gSVwnOTJtIGp1c3Qgc2NyYXRjaGluZyB0aGUgc3VyZmFjZSBvZiB3aGF0IGl0IGNhbiBkby5cClwKSSB3YW50IHRvIHRoYW5rIGV2ZXJ5b25lIHdobyBwYXJ0aWNpcGF0ZXMgb24gdGhlIEVhc3RnYXRlIGZvcnVtLCBlc3BlY2lhbGx5IHRoZSB0d28gTWFya3MuXApcCiZsdDszIFBhdH0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAw4ixatgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1512886852" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T23:20:51-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T23:20:51-07:00</attribute>
+<attribute name="Name" >Changes</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >17.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1512886854" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T23:20:53-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2017-12-09T23:21:37-07:00</attribute>
+<attribute name="Name" >v0.1.0</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >It’s alive!</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7mAAAAKwAAAAEAAADeAAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSXRcJzkycyBhbGl2ZSF9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAedIsWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
+</item>
+<item ID="1512879167" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:12:46-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="Height" >4</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="MapScrollX" >6</attribute>
+<attribute name="Modified" >2017-12-09T21:12:46-07:00</attribute>
+<attribute name="Name" >Templates</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;HTML Template&quot;;$IsTemplate=true;</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Width" >10</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1512879688" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Created" >2017-12-09T21:21:27-07:00</attribute>
+<attribute name="Modified" >2017-12-10T00:33:38-07:00</attribute>
+<attribute name="Name" >HTML page</attribute>
+<attribute name="SelectionCount" >10</attribute>
+<attribute name="URL" >https://stackoverflow.com/questions/491904/how-do-i-remove-blank-pages-coming-between-two-chapters-in-appendix</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+   ^if(^value($PDFAuthor)^)^&lt;meta name=&quot;author&quot; content=&quot;^value($PDFAuthor)^&quot;&gt;^endif^
+   ^if(^value($PDFDate)^)^&lt;meta name=&quot;date&quot; content=&quot;^value($PDFDate)^&quot;&gt;^endif^
+	&lt;title&gt;^title^&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+^text^
+^children(/Templates/HTML page/HTML item)
+&lt;/body&gt;
+&lt;/html&gt;
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6KAgAAKwAAAAEAAACCAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIDwhRE9DVFlQRSBodG1sPlwKPGh0bWw+XAo8aGVhZD5cCgk8bWV0YSBodHRwLWVxdWl2PSJjb250ZW50LXR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCI+XAogICBeaWYoXnZhbHVlKCRQREZBdXRob3IpXilePG1ldGEgbmFtZT0iYXV0aG9yIiBjb250ZW50PSJedmFsdWUoJFBERkF1dGhvcileIj5eZW5kaWZeXAogICBeaWYoXnZhbHVlKCRQREZEYXRlKV4pXjxtZXRhIG5hbWU9ImRhdGUiIGNvbnRlbnQ9Il52YWx1ZSgkUERGRGF0ZSleIj5eZW5kaWZeXAoJPHRpdGxlPl50aXRsZV48L3RpdGxlPlwKPC9oZWFkPlwKPGJvZHk+XApedGV4dF5cCl5jaGlsZHJlbigvVGVtcGxhdGVzL0hUTUwgcGFnZS9IVE1MIGl0ZW0pXAo8L2JvZHk+XAo8L2h0bWw+XAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAUuMsWrYBAAAAAAAAAAAAAA==</rtfd>
+<item ID="1512879689" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Created" >2017-12-09T21:21:27-07:00</attribute>
+<attribute name="Modified" >2017-12-09T22:50:29-07:00</attribute>
+<attribute name="Name" >HTML item</attribute>
+<attribute name="SelectionCount" >11</attribute>
+<attribute name="URL" >https://github.com/jgm/pandoc/issues/1934</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >&lt;h^value($OutlineDepth - 1)^&gt;^title^&lt;/h^value($OutlineDepth - 1)^&gt;
+^text
+^children(/Templates/HTML page/HTML item)
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6CAQAAKwAAAAEAAAB6AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIDxoXnZhbHVlKCRPdXRsaW5lRGVwdGggLSAxKV4+XnRpdGxlXjwvaF52YWx1ZSgkT3V0bGluZURlcHRoIC0gMSlePlwKXnRleHRcCl5jaGlsZHJlbigvVGVtcGxhdGVzL0hUTUwgcGFnZS9IVE1MIGl0ZW0pXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAPc0sWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
+</item>
+<item ID="1512879169" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2017-12-09T21:12:46-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="Height" >4</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="MapScrollX" >6</attribute>
+<attribute name="Modified" >2017-12-09T21:12:46-07:00</attribute>
+<attribute name="Name" >Prototypes</attribute>
+<attribute name="OnAdd" >$IsPrototype=true</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Width" >10</attribute>
+<attribute name="Xpos" >21</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1512879170" Creator="Pat Maddox" >
+<attribute name="Badge" >tools</attribute>
+<attribute name="Color" >lighter black</attribute>
+<attribute name="Created" >2017-12-09T21:12:46-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLFirstParagraphEnd" ></attribute>
+<attribute name="HTMLFirstParagraphStart" ></attribute>
+<attribute name="HTMLIndentedParagraphEnd" ></attribute>
+<attribute name="HTMLIndentedParagraphStart" ></attribute>
+<attribute name="HTMLParagraphEnd" ></attribute>
+<attribute name="HTMLParagraphStart" ></attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="IsTemplate" >true</attribute>
+<attribute name="Modified" >2017-12-09T21:12:46-07:00</attribute>
+<attribute name="Name" >HTML Template</attribute>
+<attribute name="NoSpelling" >true</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;HTML Template&quot;;$IsTemplate=true;</attribute>
+<attribute name="ParagraphSpacing" >0</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="SmartQuotes" >false</attribute>
+<attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;</attribute>
+<attribute name="TextFont" >Andale Mono</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2</attribute>
+<text >&lt;!--  Tinderbox: ^title --&gt;
+
+</text>
+</item>
+</item>
+</item>
+<links >
+<link name="prototype" sourceid="1512879170" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879688" destcreator="Pat Maddox" color="normal"  />
+<link name="prototype" sourceid="1512879170" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879689" destcreator="Pat Maddox" color="normal"  />
+<link name="*untitled" sourceid="1512882159" sourcecreator="Pat Maddox" sstart="0" slen="27" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.tug.org/mactex/mactex-download.html"  />
+<link name="*untitled" sourceid="1512881689" sourcecreator="Pat Maddox" sstart="14" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="1512882769" sourcecreator="Pat Maddox" sstart="14" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://brew.sh"  />
+<link name="*untitled" sourceid="1512883112" sourcecreator="Pat Maddox" sstart="21" slen="19" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="1512881762" sourcecreator="Pat Maddox" sstart="19" slen="18" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512881712" destcreator="Pat Maddox" color="normal"  />
+<link name="*untitled" sourceid="1512881822" sourcecreator="Pat Maddox" sstart="0" slen="35" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://pandoc.org/MANUAL.html#syntax-highlighting"  />
+<link name="*untitled" sourceid="1512881965" sourcecreator="Pat Maddox" sstart="85" slen="6" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://github.com"  />
+<link name="*untitled" sourceid="1512881936" sourcecreator="Pat Maddox" sstart="33" slen="13" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://pandoc.org/MANUAL.html#variables-for-latex"  />
+<link name="*untitled" sourceid="1512889538" sourcecreator="Pat Maddox" sstart="26" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879181" destcreator="Pat Maddox" color="normal"  />
+<link name="*untitled" sourceid="1512890466" sourcecreator="Pat Maddox" sstart="4" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879181" destcreator="Pat Maddox" color="normal"  />
+<link name="*untitled" sourceid="1512891504" sourcecreator="Pat Maddox" sstart="4" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512879181" destcreator="Pat Maddox" color="normal"  />
+<link name="*untitled" sourceid="1512891540" sourcecreator="Pat Maddox" sstart="62" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes"  />
+<link name="*untitled" sourceid="1512881693" sourcecreator="Pat Maddox" sstart="237" slen="12" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/1068"  />
+<link name="*untitled" sourceid="1512881693" sourcecreator="Pat Maddox" sstart="276" slen="84" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://forum.eastgate.com/t/create-beautiful-pdfs-from-your-tinderbox-documents/1068"  />
+<link name="*untitled" sourceid="1512882159" sourcecreator="Pat Maddox" sstart="29" slen="46" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="http://www.tug.org/mactex/mactex-download.html"  />
+<link name="*untitled" sourceid="1512882769" sourcecreator="Pat Maddox" sstart="52" slen="15" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://brew.sh"  />
+<link name="*untitled" sourceid="1512891540" sourcecreator="Pat Maddox" sstart="118" slen="71" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes"  />
+<link name="*untitled" sourceid="1512881733" sourcecreator="Pat Maddox" sstart="51" slen="41" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1512878960" destcreator="Pat Maddox" color="normal" URL="https://gist.github.com/killercup/5917178"  />
+</links>
+<macros >
+</macros>
+<preferences >
+<Creator > Pat Maddox</Creator>
+<ToolbarVisible > 1</ToolbarVisible>
+<OpenTextImmediately > 0</OpenTextImmediately>
+<Tinderbox5Wizard > 1</Tinderbox5Wizard>
+<DynamicSpelling > 1</DynamicSpelling>
+<AutoOpen > 1</AutoOpen>
+<AutomaticBackup > 1</AutomaticBackup>
+<ReopenLastDocument > 0</ReopenLastDocument>
+<Autosave > 0</Autosave>
+<KeepWindowsOpen > 1</KeepWindowsOpen>
+<LeftMargin > 2</LeftMargin>
+<RightMargin > -2</RightMargin>
+<ParagraphSpacing > 4</ParagraphSpacing>
+<TextFont > MercurySSm-Book</TextFont>
+<NewTextSize > 16</NewTextSize>
+<TextJust > 0</TextJust>
+<AlwaysShowTextLinks > 1</AlwaysShowTextLinks>
+<ShowWikiLinks > 1</ShowWikiLinks>
+<TextLinkFrames > 1</TextLinkFrames>
+<TextLinkColorString > #0066cc</TextLinkColorString>
+<TextBackgroundColorString > white</TextBackgroundColorString>
+<SmartQuotes > 1</SmartQuotes>
+<TextWindowWidth > 6</TextWindowWidth>
+<TextWindowHeight > 6</TextWindowHeight>
+<AutoIndentLists > 1</AutoIndentLists>
+<ShowTitle > 0</ShowTitle>
+<TitleFont > HelveticaNeue</TitleFont>
+<TitleSize > 2</TitleSize>
+<TitleJust > 2</TitleJust>
+<MapShowLinks > 1</MapShowLinks>
+<MapEnacted > 1</MapEnacted>
+<InPlaceEditing > 1</InPlaceEditing>
+<MapLabelSizeNew > 14</MapLabelSizeNew>
+<MapBackgroundColorString > #f2f2ed</MapBackgroundColorString>
+<MapBackgroundColorString2 > #f2f2ed</MapBackgroundColorString2>
+<OpaqueAdornments > 0</OpaqueAdornments>
+<MapBackgroundPattern > plain</MapBackgroundPattern>
+<PrototypeHighlightColorString > #cceecc</PrototypeHighlightColorString>
+<MapFont > IdealSansSSm-Book</MapFont>
+<DarkenOutlineColors > 1</DarkenOutlineColors>
+<BlackOutlineText > 0</BlackOutlineText>
+<UnderlineAliases > 0</UnderlineAliases>
+<AutomaticLinkDetection > 1</AutomaticLinkDetection>
+<HiddenTabBar > 0</HiddenTabBar>
+<TextPaneSelectorHidden > 0</TextPaneSelectorHidden>
+<OutlineLeading > 2</OutlineLeading>
+<InteriorScale > 1</InteriorScale>
+<InteriorScaleNew > 1.5</InteriorScaleNew>
+<ExpandMode > 1</ExpandMode>
+<AfterLinkingSelect > 1</AfterLinkingSelect>
+<ExportImageFormat > 1</ExportImageFormat>
+<ExportURL > http://</ExportURL>
+<ExportHTMLHelper > Safari</ExportHTMLHelper>
+<ExportHTMLExtension > 1</ExportHTMLExtension>
+<HTMLParagraphStyle > 1</HTMLParagraphStyle>
+<HTMLViewFont > HelveticaNeue</HTMLViewFont>
+<HTMLViewFontSize > 2</HTMLViewFontSize>
+<ExportTemplatePath > plain</ExportTemplatePath>
+<RoadmapWindowWidth > 0</RoadmapWindowWidth>
+<RoadmapWindowHeight > 0</RoadmapWindowHeight>
+<TextExportViewFont > HelveticaNeue</TextExportViewFont>
+<TextExportViewFontSize > 2</TextExportViewFontSize>
+<ExportTextTemplatePath > outline</ExportTextTemplatePath>
+<ExportTextHelper > TextEdit</ExportTextHelper>
+<AskToDelete > 2</AskToDelete>
+<DailyTip > 1</DailyTip>
+<WarnEditingDefault > 1</WarnEditingDefault>
+<WarnDuplicateName > 1</WarnDuplicateName>
+<RunScriptsAutomatically > 1</RunScriptsAutomatically>
+<Version > version 7.3.1</Version>
+<PreferencePane > 0</PreferencePane>
+<LastBadgeFamily > 1</LastBadgeFamily>
+<TipWindowX > 300</TipWindowX>
+<TipWindowY > 50</TipWindowY>
+<RegUserName > Pat Maddox</RegUserName>
+<RegUserOrg > </RegUserOrg>
+<CurrentAttributeClass > </CurrentAttributeClass>
+<CurrentAttribute > </CurrentAttribute>
+<FindCaseSensitive > 1</FindCaseSensitive>
+<ExportFolder > ~/Desktop/tb export</ExportFolder>
+<ReadOnly > 0</ReadOnly>
+<InfoWindowHeight > 0</InfoWindowHeight>
+<InfoWindowWidth > 0</InfoWindowWidth>
+<RecentFiles > </RecentFiles>
+<PingServer > http://rpc.weblogs.com/RPC2</PingServer>
+<PingMethod > weblogUpdates.ping</PingMethod>
+<PingTitle > your weblog name</PingTitle>
+<PingURL > weblog URL</PingURL>
+<PingTechnorati > 1</PingTechnorati>
+<PingWeblogsCom > 1</PingWeblogsCom>
+<PingGoogle > 1</PingGoogle>
+<PingFeedURL > </PingFeedURL>
+<WeblogServer > http://your_host/cgi-bin/mt/mt-xmlrpc.cgi</WeblogServer>
+<WeblogUser > </WeblogUser>
+<WeblogPassword > </WeblogPassword>
+<WeblogID > 1</WeblogID>
+<WeblogKind > 2</WeblogKind>
+<ToolbarKind > 0</ToolbarKind>
+<ReadingReminders > 0</ReadingReminders>
+<AllowViews > 1</AllowViews>
+<AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
+<ToolbarX > 0</ToolbarX>
+<ToolbarY > 0</ToolbarY>
+<FindWindowX > 600</FindWindowX>
+<FindWindowY > 100</FindWindowY>
+<RenameWindowX > -1</RenameWindowX>
+<RenameWindowY > -1</RenameWindowY>
+<InspectorX > 1728</InspectorX>
+<InspectorY > 563</InspectorY>
+<EnterKeyAction > 0</EnterKeyAction>
+<UpdateViewShown > </UpdateViewShown>
+<TimelineScale > 1000</TimelineScale>
+<TimelineLabelSize > 0</TimelineLabelSize>
+<GetInfoPane > agent</GetInfoPane>
+<GetInfoCategory > </GetInfoCategory>
+<GetInfoSelection > </GetInfoSelection>
+<LastLinkName > *untitled</LastLinkName>
+<UsingGuides > 1</UsingGuides>
+<SystemAttributesCategory > </SystemAttributesCategory>
+<SystemAttributesSelection > </SystemAttributesSelection>
+<CheckMail > 0</CheckMail>
+<MailHost > </MailHost>
+<MailUser > </MailUser>
+<MailPassword > </MailPassword>
+<CheckSimplenote > 0</CheckSimplenote>
+<SimplenoteEmail > </SimplenoteEmail>
+<SimplenotePassword > </SimplenotePassword>
+<SimplenoteTag > </SimplenoteTag>
+<MapBackgroundColor > 0 0 0</MapBackgroundColor>
+<MapBackgroundColor2 > 0 0 0</MapBackgroundColor2>
+<TextColor > 0 0 0</TextColor>
+<TextBackgroundColor > 65535 65535 65535</TextBackgroundColor>
+<TextSize > 5</TextSize>
+<TitleBackgroundColor > 0 0 0</TitleBackgroundColor>
+<TitleForegroundColor > 65535 65535 65535</TitleForegroundColor>
+<ActiveLinkColor > 65535 0 0</ActiveLinkColor>
+<VisitedLinkColor > 26112 0 52224</VisitedLinkColor>
+<MagnifyFonts > 1</MagnifyFonts>
+<MagnifyPictures > 1</MagnifyPictures>
+<RememberWindowPositions > 1</RememberWindowPositions>
+<ExportHTMLCreator > 1</ExportHTMLCreator>
+<ExportTextCreator > 1</ExportTextCreator>
+<ShowSidebar > 1</ShowSidebar>
+<MapPrototypeColor > 52428 61166 52428</MapPrototypeColor>
+<TextLinkColor > 0 26112 52224</TextLinkColor>
+<MapLabelSize > 3</MapLabelSize>
+<LastVersionString > b292</LastVersionString>
+</preferences>
+<windows >
+<window bounds="Rect[ 564 151 1833 996]" ruler="0" >
+<tabs >
+<tab selected="1" viewType="1" usingCheckboxes="0" showColumns="0" columnString="" scale="32" ID="1512878960" scrollX="0" scrollY="0" selection="1512879181 " expanded="1512879181 1512879688 " textTab="0" attribute="" sortAttribute="" container="" query="" queryLabel="" action="" actionLabel="" bins="10" summaryAttribute="" summaryMethod="" splitRatio="0.498818" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100"  />
+</tabs>
+</window>
+</windows>
+<utilityWindows >
+</utilityWindows>
+<searches >
+<search>http</search>
+<search>Rule</search>
+<search>rule</search>
+<search>Action</search>
+<search>$Rule</search>
+</searches>
+</tinderbox>
